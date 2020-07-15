@@ -1,0 +1,7 @@
+def arg_kwarg_param2(*args, **kwargs):
+    print(len(args))
+    print(len(kwargs))
+    print(args, kwargs)
+
+arg_kwarg_param2(10, 20)
+arg_kwarg_param2(10, 20, a=30, b=40)
